@@ -14,7 +14,19 @@ z = y[0]
 print(y)
 print(z) """
 
-x = "This is a sample sentence"
-y = x.split()
-print(y)
 
+
+def discount(age, is_member, is_resident):
+    if age < 12 or age > 65:
+        print("eligible for discount")
+    else:
+        print("not eligible for discount")
+    
+    if is_member == True or is_resident == True:
+        print("eligible for discount")
+    else:
+        print("not eligible for discount")
+    return
+age = 11
+is_resident = True
+is_memeber = True
