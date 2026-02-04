@@ -16,7 +16,7 @@ print(z) """
 
 
 
-def discount(age, is_member, is_resident):
+""" def discount(age, is_member, is_resident):
     if age < 12 or age > 65:
         print("eligible for discount")
     else:
@@ -27,6 +27,35 @@ def discount(age, is_member, is_resident):
     else:
         print("not eligible for discount")
     return
-age = 11
-is_resident = True
-is_memeber = True
+age = 13
+is_resident = False
+is_member = False
+
+discount(age, is_member, is_resident) """
+
+""" user_sentence = input("Type a sentence")
+
+x = user_sentence.split( )
+
+print(len(x)) """
+
+""" x = "test"
+print(f"hello {x}")
+
+temp =68
+if temp > 68:
+    print('warm')
+elif temp == 68:
+    print('perfect')
+else:
+    print('cold') """
+
+""" number = int(input("Insert a number"))
+x = number
+if x % 2 == 0:
+    print('even')
+else:
+    print('odd') """
+
+service 
+if 
