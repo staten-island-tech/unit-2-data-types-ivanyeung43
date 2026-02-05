@@ -57,5 +57,20 @@ if x % 2 == 0:
 else:
     print('odd') """
 
-service 
-if 
+bill = int(input("Enter the bill value"))
+tip = float(input("How was the service?: Bad, Okay, Good, or Great"))
+
+if tip == 'bad':
+    x == 0
+if tip == 'okay':
+    x == 15
+if tip == 'good':
+    x == 20
+if tip == 'great':
+    x == 25
+
+
+final_bill = (bill*1(x/100))
+print(final_bill)
+
+
