@@ -57,25 +57,42 @@ if x % 2 == 0:
 else:
     print('odd') """
 
-bill = float(input("Enter the bill value"))
+""" bill = float(input("Enter the bill value"))
 service = input("How was the service?: Bad, Okay, Good, or Great").lower()
+tip = 0
 
-
-if service == "bad":
+if service == 'bad':
     tip = 0*bill
+    print(tip)
 
-elif service == "okay":
-    tip = 1.15*bill
-
-elif service == "good":
-    tip = 1.20*bill
-    
-elif service == "great":
-    tip = 1.25*bill
-    
-
+elif service == 'okay':
+    tip = 0.15*bill
+    print(tip)
+elif service == 'good':
+    tip = 0.20*bill
+    print(tip)
+elif service == 'great':
+    tip = 0.25*bill
+    print(tip)
 
 final_bill = bill+tip
 print(final_bill)
+ """
 
+""" number = int(input("Enter a Number"))
+x = number
 
+for i in range(1, x+1):
+    if x%i == 0:
+        print(i) """
+
+number = int(input("Enter a Number"))
+x = number
+number_two = int(input("Enter Second Number"))
+y = number_two
+for i in range(1, x+1):
+    if x%i == 0:
+        print(i)
+for second in range(1, y+1):
+    if x%second == 0:
+        print(second)
