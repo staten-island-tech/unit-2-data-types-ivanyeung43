@@ -87,12 +87,16 @@ for i in range(1, x+1):
         print(i) """
 
 number = int(input("Enter a Number"))
-x = number
 number_two = int(input("Enter Second Number"))
 y = number_two
-for i in range(1, x+1):
+x = number
+
+for i in range
+
+""" for i in range(1, x+1):
     if x%i == 0:
         print(i)
 for second in range(1, y+1):
-    if x%second == 0:
-        print(second)
+    if y%second == 0:
+        print(second) """
+
