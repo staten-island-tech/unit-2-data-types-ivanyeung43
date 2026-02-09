@@ -91,12 +91,24 @@ number_two = int(input("Enter Second Number"))
 y = number_two
 x = number
 
-for i in range
+if x > y:
+    print(y,x)
+    for i in range(1, x+1):
+        if x%i == 0:
+            print(i) 
+    for second in range(1, y+1):
+        if y%second == 0:
+            print(second)
+else:
+    print(x,y)
+    for second in range(1, y+1):
+        if y%second == 0 and :
+            print(second)
+    for i in range(1, x+1):
+        if x%i == 0:
+            print(i) 
+factor = (i)
 
-""" for i in range(1, x+1):
-    if x%i == 0:
-        print(i)
-for second in range(1, y+1):
-    if y%second == 0:
-        print(second) """
+
+
 
