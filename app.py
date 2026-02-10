@@ -57,6 +57,7 @@ if x % 2 == 0:
 else:
     print('odd') """
 
+""" """ 
 """ bill = float(input("Enter the bill value"))
 service = input("How was the service?: Bad, Okay, Good, or Great").lower()
 tip = 0
@@ -64,7 +65,6 @@ tip = 0
 if service == 'bad':
     tip = 0*bill
     print(tip)
-
 elif service == 'okay':
     tip = 0.15*bill
     print(tip)
@@ -76,8 +76,8 @@ elif service == 'great':
     print(tip)
 
 final_bill = bill+tip
-print(final_bill)
- """
+print(final_bill) """
+
 
 """ number = int(input("Enter a Number"))
 x = number
@@ -93,22 +93,26 @@ x = number
 
 if x > y:
     print(y,x)
-    for i in range(1, x+1):
-        if x%i == 0:
-            print(i) 
-    for second in range(1, y+1):
-        if y%second == 0:
-            print(second)
+    for gcf in range(1, x+1):
+        if x%gcf == 0 and y%gcf == 0:
+            gcf_last = str(gcf)[-1]
+            print(gcf_last)
+
+
 else:
     print(x,y)
-    for second in range(1, y+1):
-        if y%second == 0 and :
-            print(second)
-    for i in range(1, x+1):
-        if x%i == 0:
-            print(i) 
-factor = (i)
+    for gcf_2 in range(1, y+1):
+        if y%gcf_2 == 0 and x%gcf_2 == 0:
+            gcf_2_last = str(gcf_2)[-1]
+            print(gcf_2_last)
 
 
 
+""" # Tip Calculator
 
+bill = float(input("What is the bill amount?"))
+tip = float(input("Tip"))
+
+cal_tip = bill*(1+(tip/100))
+print(f"Your total is: ${cal_tip}") 
+ """
