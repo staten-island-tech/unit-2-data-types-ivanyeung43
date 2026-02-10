@@ -104,9 +104,7 @@ else:
     for gcf_2 in range(1, y+1):
         if y%gcf_2 == 0 and x%gcf_2 == 0:
             gcf_2_last = str(gcf_2)[-1]
-            print(gcf_2_last)
-
-
+            print(gcf_2_last) 
 
 """ # Tip Calculator
 
