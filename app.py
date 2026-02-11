@@ -85,32 +85,27 @@ x = number
 for i in range(1, x+1):
     if x%i == 0:
         print(i) """
+import math
 
-number = int(input("Enter a Number"))
-number_two = int(input("Enter Second Number"))
+number = 50
+number_two = 20
 y = number_two
 x = number
 
-if x > y:
-    print(y,x)
-    for gcf in range(1, x+1):
-        if x%gcf == 0 and y%gcf == 0:
-            gcf_last = str(gcf)[-1]
-            print(gcf_last)
+
+for gcf in range(1, x+1):
+    if x%gcf == 0 and y%gcf == 0:
+        gcf_last = str(gcf)[-1]
+        print(gcf_last)
 
 
-else:
-    print(x,y)
-    for gcf_2 in range(1, y+1):
-        if y%gcf_2 == 0 and x%gcf_2 == 0:
-            gcf_2_last = str(gcf_2)[-1]
-            print(gcf_2_last) 
 
-""" # Tip Calculator
+
+""" ## Tip Calculator
 
 bill = float(input("What is the bill amount?"))
 tip = float(input("Tip"))
 
 cal_tip = bill*(1+(tip/100))
 print(f"Your total is: ${cal_tip}") 
- """
+ """ 
