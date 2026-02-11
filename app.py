@@ -85,18 +85,18 @@ x = number
 for i in range(1, x+1):
     if x%i == 0:
         print(i) """
-import math
 
-number = 50
+
+number = 10
 number_two = 20
 y = number_two
 x = number
 
-
 for gcf in range(1, x+1):
     if x%gcf == 0 and y%gcf == 0:
-        gcf_last = str(gcf)[-1]
-        print(gcf_last)
+        gc_f = [gcf]
+        gcf_last = gc_f[-1]
+        print(f"The gcf of {x} and {y} is {gcf_last}")
 
 
 
