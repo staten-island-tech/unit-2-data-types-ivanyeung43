@@ -89,11 +89,12 @@ for i in range(1, x+1):
 
 
 y = 100
-x = 20
-
+x = 1000
+GCF = 0
 for gcf in range(1, x+1):
     if x%gcf == 0 and y%gcf == 0:
-        print(f"The gcf of {x} and {y} is {gcf}")
+        GCF= gcf
+print(f"The gcf of {x} and {y} is {GCF}")
 
 
 
