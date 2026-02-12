@@ -87,10 +87,9 @@ for i in range(1, x+1):
         print(i) """
 
 
-number = 10
-number_two = 20
-y = number_two
-x = number
+
+y = 100
+x = 20
 
 for gcf in range(1, x+1):
     if x%gcf == 0 and y%gcf == 0:
