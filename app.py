@@ -93,9 +93,7 @@ x = 20
 
 for gcf in range(1, x+1):
     if x%gcf == 0 and y%gcf == 0:
-        gc_f = [gcf]
-        gcf_last = gc_f[-1]
-        print(f"The gcf of {x} and {y} is {gcf_last}")
+        print(f"The gcf of {x} and {y} is {gcf}")
 
 
 
