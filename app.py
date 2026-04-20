@@ -89,7 +89,7 @@ for i in range(1, x+1):
 
 
 y = 100
-x = 1000
+x = 35
 GCF = 0
 for gcf in range(1, x+1):
     if x%gcf == 0 and y%gcf == 0:
